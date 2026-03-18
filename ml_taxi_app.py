@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_rest_split
-from sklearn.linear_model LinearRegression
+from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score,mean_squared_error
 
 st.title("VVIT taxi Fare prediction App(End-to-End ML)")
@@ -58,5 +58,5 @@ hour = st.number_input(
 )
 if st.button(" Predict Fare "):
   input_data = np.array([[distance]])
-  prediction model.predict(input_data)
+  prediction=model.predict(input_data)
   st.success(f" Estimated Fare: ${prediction[0]:.2f}")
