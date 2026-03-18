@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-leqrn
+streamlit
+matplotlib
+seaborn
+altair<5
+standard-imghdr
+pyarrow
